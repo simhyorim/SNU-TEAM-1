@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/button";
 
 const TodoItem = ({ todo, onToggle, onDelete }) => {
   return (
-    <li className="flex items-center justify-between w-full mb-4 p-2 bg-gray-100 rounded-md shadow-sm">
+    <li className="flex items-left justify-between w-full mb-4 p-2 bg-gray-100 rounded-md shadow-sm">
       <input
         type="checkbox"
         checked={todo.completed}

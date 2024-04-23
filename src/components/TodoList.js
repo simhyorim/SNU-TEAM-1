@@ -34,7 +34,9 @@ const TodoList = () => {
 
   return (
     <div className="max-w-lg mx-auto my-10 p-8 bg-gray-500 rounded-lg shadow-md flex flex-col items-center">
-      <h1 className="text-center font-bold text-xl mb-6">Todo List</h1>
+      <h1 className="text-center font-bold text-xl text-white mb-6">
+        Todo List
+      </h1>
       <Input
         type="text"
         // className="w-full p-3 mb-4 border-2 border-blue-500 rounded-full outline-none text-base"

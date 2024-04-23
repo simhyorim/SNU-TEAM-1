@@ -33,7 +33,7 @@ const TodoList = () => {
   };
 
   return (
-    <div className="max-w-lg mx-auto my-10 p-8 bg-white rounded-lg shadow-md flex flex-col items-center">
+    <div className="max-w-lg mx-auto my-10 p-8 bg-gray-500 rounded-lg shadow-md flex flex-col items-center">
       <h1 className="text-center font-bold text-xl mb-6">Todo List</h1>
       <Input
         type="text"
